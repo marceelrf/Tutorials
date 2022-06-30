@@ -15,4 +15,4 @@ experimentos <- c("DNA","RNA","Proteina")
 tidyr::crossing(tratamento,tempo,experimentos) %>% 
   dplyr::mutate(Label = glue("Droga: {tratamento} - {tempo}  dias - {experimentos}")) %>% 
   dplyr::select(Label) %>% 
-  readr::write_csv(file = "etiquetas.csv",col_names = F)
+  readr::write_csv(file = "Etiquetas com Glue/etiquetas.csv",col_names = F)

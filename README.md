@@ -6,7 +6,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of Tutorials is to contribute with tutorials of R
+The goal of *Tutorials* is to contribute with tutorials of R
 functions/packages.
 
 by [Marcel Ferreira](www.github.com/marceelrf)
